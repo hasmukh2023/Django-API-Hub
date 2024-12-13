@@ -6,7 +6,7 @@ from .views import UserSignupView, UserLoginView,UserListView
 
 schema_view = get_schema_view(
     openapi.Info(
-        title="API Documentation",
+        title="Django API Hub",
         default_version="v1",
         description="API documentation for authentication system",
         terms_of_service="https://www.example.com/terms/",
